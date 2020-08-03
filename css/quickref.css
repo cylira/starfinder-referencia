@@ -120,6 +120,13 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
+#section-header, #section-header .item-icon {
+    background-color: Black;
+    border-color: Black;
+}
+#section-header .text {
+    color: Black;
+}	
 #section-movement-action, #section-movement-action .item-icon {
     background-color: steelblue;
     border-color: steelblue;
