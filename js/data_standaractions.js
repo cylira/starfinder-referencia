@@ -1,19 +1,85 @@
 data_action = [
+{
+        title: "Activar un objeto",
+        icon: "snatch",
+        subtitle: "Interactuar con un objeto",
+        description: "Interactuar con objeto",
+        reference: "SFCR, pg. 244.",
+        bullets: [
+            "Muchos objetos tecnológicos y mágicos, como una mano cibernética, no necesitan activarse. Ciertos objetos, sin embargo, necesitan activarse para tener efecto. Si no se indica lo contrario, activar uno de dichos objetos requiere una acción estándar"
+        ]
+    },
+	{
+        title: "Anular un conjuro",
+        icon: "snatch",
+        subtitle: "Finalizar un conjuro activo",
+        description: "Finalizar un conjuro activo",
+        reference: "SFCR, pg. 244.",
+        bullets: [
+            "Poner fin a un conjuro es una acción estándar (rer Duración para más información acrca de conjuros anulables)"
+        ]
+    },
+
     {
         title: "Atacar",
         icon: "crossed-swords",
         subtitle: "Ataque cuerpo a cuerpo o a distacia",
-        description: "Realiza con tu arma un ataque cuerpo a cuerpo o a distancia",
-        reference: "PHB, pgs. 192,194-195.",
+        description: "Llevar a cabo un único ataque es un acción estándar",
+        reference: "SFCR, pgs. 244-245.",
         bullets: [
-            "Ciertos rasgos, como el rasgo <i> Ataque Adicional </i> del guerrero, te permiten realizar más de un ataque con esta acción. Cada uno de estos ataques es una tirada a parte y puede ser a diferentes criaturas. Puedes moverte entre estos ataques.",
-            "Cuando atacas con un arma cuerpo a cuerpo ligera, puedes usar una acción adicional para atacar con la otra mano (ver la acción adicional <i>Ataque con dos armas</i>).",
-            "Puedes reemplazar uno de tus ataques cuerpo a cuerpo con un <i> Agarrar </i> o un <i> Empujar </i>.",
-            "Algunas condiciones dan ventaja en el ataque: ataques contra objetivos cegados, paralizados, petrificados, apresados, aturdidos o inconscientes; ataques cuerpo a cuerpo contra objetivos derribados; ataques de atacantes invisibles u ocultos.",
-            "Algunas condiciones ponen en desventaja el ataque: ataques contra objetivos invisibles u ocultos; ataques a distancia contra objetivos derribados; ataques de atacantes cegados, asustados, envenenados o apresados."
+            "<b>Ataques cuerpo a cuerpo:</b> Con un arma cuerpo a cuerpo, puedes atacar a cualquiera en una casilla adyacente a ti espacio. Tu modificador por Fuerza se suma a tus tiradas de ataque cuarpo a cuerpo y tiradas de daño cuarpo a cuerpo.",
+            "<b>Ataques a distancia:</b> Con un arma a distancia, puedes disparar o atacar a un objetivo que está dentro del alcance máximo del arma y en tu línea de efecto. Tu modificacor por Destreza se suma a tus tiradas de ataque a distancia, pero no al daño.",
+            "<b>Ataques a distancia con un arma arrojadiza:</b> Con un arma arroadiza o una granada, puedes llevar a cabo un ataque a distancia contra un objetivo que está dentro del alcance máximo del arma y en tu linea de efecto. Tu modificador por Fuerza se suma a tus tiradas de ataque a distancia con arma arrojadiza y tiradas de daño con armas con la propiedad especial arrojadiza. No sumas tu modificador por Fuerza a las tiradas de daño de granadas.",
+            "<b>Apuntar a una intersección de casillas:</b> Al usar un arma arrojadiza que tiene área de efecto, como una granada, designas como objetivo una intersección de casillas específica del mapa de batalla táctico, en lugar de una criatura específica. Trata esto como un ataque a distancia contra CA 5."
         ]
     },
-    {
+	    {
+        title: "Concentrarse",
+        icon: "crossed-swords",
+        subtitle: "Concentrarse para mantener un conjuro",
+        description: "Algunos conjuros requieren una concentración continuada para seguir funcionando",
+        reference: "SFCR, pgs. 246.",
+        bullets: [
+            "Concentrarse para mantener un conjuro es una acción estándar."
+        ]
+    },
+	{
+        title: "Defensa total",
+        icon: "aura",
+        subtitle: "Incrementa la defensa",
+        description: "Te enfocas por completo en evitar ataques",
+        reference: "SFCR, pg. 246.",
+        bullets: [
+            "Desde el inicio de esta acción obtienes un bonificador de +4 a tu CA hasta el inicio de tu siguiente turno.",
+			"No puedes combinar la defensa total con otras acciones que aumenten tu CA.",
+			"No puedes llevar a cabo ataques de oportunidad mientras te beneficias de la defensa total."
+        ]
+    },
+	{
+        title: "Fintar",
+        icon: "aura",
+        subtitle: "Tratas de engañar al enemigo",
+        description: "Intentas una finta con una prueba de Engañar",
+        reference: "SFCR, pg. 246.",
+        bullets: [
+            "Usas tu acción estándar para intentar una finta con una prueba de Engañar, La CD es igual a 10 + el bonificador total de Averiguar intenciones del oponente o 15 + (1.5 x el VD del oponente), lo que sea mayor.",
+			"No puedes fintar contra una criatura que no tiene puntuación de Inteligencia y no puedes tomar 10 ni 20 en una prueba de engañar para fintar.",
+			"Cuando tienes éxito en una finta, tratas a tu oponente como desprevanido en tu siguiente ataque contra él antes del final de tu siguiente turno."
+        ]
+    },
+	{
+        title: "Fuego de covertura",
+        icon: "aura",
+        subtitle: "Proporcionas covertura a un aliado",
+        description: "Intentas una finta con una prueba de Engañar",
+        reference: "SFCR, pg. 246.",
+        bullets: [
+            "Usas tu acción estándar para intentar una finta con una prueba de Engañar, La CD es igual a 10 + el bonificador total de Averiguar intenciones del oponente o 15 + (1.5 x el VD del oponente), lo que sea mayor.",
+			"No puedes fintar contra una criatura que no tiene puntuación de Inteligencia y no puedes tomar 10 ni 20 en una prueba de engañar para fintar.",
+			"Cuando tienes éxito en una finta, tratas a tu oponente como desprevanido en tu siguiente ataque contra él antes del final de tu siguiente turno."
+        ]
+    },
+	    {
         title: "Agarrar (Grapple)",
         icon: "grab",
         subtitle: "Ataque especial cuerpo a cuerpo",
@@ -71,17 +137,7 @@ data_action = [
         bullets: [
         ]
     },
-    {
-        title: "Esquivar (Dodge)",
-        icon: "aura",
-        subtitle: "Incrementa la defensa",
-        description: "Te enfocas por completo en evitar ataques",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "Hasta el comienzo de tu siguiente turno, cualquier tirada de ataque hecha contra ti tiene una desventaja si puedes ver al atacante, y haces lanzamientos de salvación de Destreza con ventaja.",
-            "Pierdes este beneficio si estás <i> incapacitado </i> o si tu velocidad cae a 0."
-        ]
-    },
+    
     {
         title: "Escapar de un agarre (Escape)",
         icon: "manacles",
@@ -105,17 +161,7 @@ data_action = [
             "La ventaja dura hasta el comienzo de tu próximo turno."
         ]
     },
-    {
-        title: "Usar un objeto",
-        icon: "snatch",
-        subtitle: "Interactuar con un segundo objeto",
-        description: "Interactuar con un segundo objeto o usar habilidades de objetos especiales",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Puedes interactuar con un objeto de forma gratuita durante tu turno (como sacar un arma o abrir una puerta). Si deseas interactuar con un segundo objeto, usa esta acción.",
-            "Cuando un objeto requiere tu acción para su uso, también realizas esta acción"
-        ]
-    },
+    
     {
         title: "Usar un escudo",
         icon: "round-shield",

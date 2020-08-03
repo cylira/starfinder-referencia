@@ -1,4 +1,4 @@
-data_bonusaction = [
+data_other = [
     {
         title: "Ataque con dos armas",
         icon: "crossed-swords",

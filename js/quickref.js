@@ -57,9 +57,9 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Movimiento");
-    fill_section(data_action, "basic-actions", "Acción");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Acción adicional");
+    fill_section(data_movement, "basic-movement", "Acción de movimiento");
+    fill_section(data_action, "basic-actions", "Acción estándar");
+    fill_section(data_swift, "basic-swift-actions", "Acción rápida");
     fill_section(data_reaction, "basic-reactions", "Reacción");
     fill_section(data_condition, "basic-conditions", "Condición");
     fill_section(data_environment_obscurance, "environment-obscurance", "Ambiente");
@@ -67,7 +67,8 @@ function init() {
     fill_section(data_environment_vision, "environment-vision", "Ambiente");
     fill_section(data_environment_cover, "environment-cover", "Ambiente");
 	fill_section(data_rest, "basic-rest", "Descanso");
-	fill_section(data_optional, "optional-actions", "Acción Opcional");
+	fill_section(data_full, "full-actions", "Acción completa");
+	fill_section(data_other, "other-actions", "Acción completa");
 	
 
     var modal = document.getElementById("modal");

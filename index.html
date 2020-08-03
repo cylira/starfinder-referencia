@@ -5,7 +5,7 @@
 	<link rel="image_src" href="https://repository-images.githubusercontent.com/201278805/8907cc00-b9cb-11e9-9b7f-ac2f644c752a">
     <meta charset="utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>D&D 5e referencia rápida</title>
+    <title>Starfinder referencia rápida</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/quickref.css">
     <link rel="stylesheet" type="text/css" href="css/icons.css">
@@ -37,46 +37,56 @@
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
 
-        <!-- Movement section -->
-        <div id="section-movement" class="section-container">
+ 		<!-- Action section -->
+        <div id="section-standar-action" class="section-container">
             <div class="section-title">
-                Movimiento <span class="float-right">limitado por la velocidad de movimiento</span>
+                Acción Estándar (Standar Action) <span class="float-right">1/turno</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Puedes moverte en cualquier momento durante tu turno (antes, después o durante las acciones).
-                </div>
-                <div class="section-row" id="basic-movement">
-                </div>
-            </div>
-        </div>
-
-        <!-- Action section -->
-        <div id="section-action" class="section-container">
-            <div class="section-title">
-                Acción <span class="float-right">1/turno</span>
-            </div>
-            <div class="section-content">
-                <div class="section-row section-subtitle text fontsize">
-                    También puedes interactuar con un objeto o característica del entorno de forma gratuita.
+                    También puedes usar tu Acción Estándar para realizar una Acción de Movimineto o una Acción rápida.
                 </div>
                 <div class="section-row" id="basic-actions"></div>
             </div>
         </div>
-
-        <!-- Bonus action section -->
-        <div id="section-bonus-action" class="section-container">
+        <!-- Movement section -->
+        <div id="section-movement-action" class="section-container">
             <div class="section-title">
-                Acción adicional <span class="float-right">max. 1/turno</span>
+                Acción de Movimiento (Move Action)<span class="float-right">1/t.</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                También puedes usar tu acción de movimiento para realizar una Acciópn rápida.
+                </div>
+                <div class="section-row" id="basic-movement">
+                </div>
+            </div>
+        </div>    
+
+        <!-- Swift action section -->
+        <div id="section-swift-action" class="section-container">
+            <div class="section-title">
+                Acción rápida (Swift Action) <span class="float-right">1/turno</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
                     Puedes realizar una acción adicional sólo cuando una habilidad, conjuro o característica especial indica que puedes hacer algo como acción adicional.
                 </div>
-                <div class="section-row" id="basic-bonus-actions"></div>
+                <div class="section-row" id="basic-swift-actions"></div>
             </div>
         </div>
-
+		<!-- Full Action Action section -->
+        <div id="section-full-action" class="section-container">
+            <div class="section-title">
+                Acción Completa <span class="float-right">En lugar de otras acciones</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Opciones adicionales de Acciones. (Reglas opcionales del Dungeon Master Guide).
+                </div>
+                <div class="section-row" id="full-actions"></div>
+            </div>
+        </div>
         <!-- Reaction section -->
         <div id="section-reaction" class="section-container">
             <div class="section-title">
@@ -89,23 +99,24 @@
                 <div class="section-row" id="basic-reactions"></div>
             </div>
         </div>
-       <!-- Optional Action section -->
-        <div id="section-optional" class="section-container">
+        <!-- Other Acion section -->
+        <div id="section-other-action" class="section-container">
             <div class="section-title">
-                Acciones Opcionales <span class="float-right">1/turno</span>
+                Otras aciones <span class="float-right">variable</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Opciones adicionales de Acciones. (Reglas opcionales del Dungeon Master Guide).
+                    Las siguientes acciones son también importantes, pero no se usan tan amenudo.
                 </div>
-                <div class="section-row" id="optional-actions"></div>
+                <div class="section-row" id="other-acions"></div>
             </div>
         </div>
+       
         <!-- Condition section -->
         <div id="section-condition" class="section-container">
             <div class="section-title">
-                Estados
-            </div>
+                Estados Negativos
+            </div>	
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
                     Los estados alteran tus capacidades de varias maneras y pueden surgir como resultado de un conjuro, una característica de clase, un ataque de monstruo u otro efecto.
@@ -177,11 +188,12 @@
     </div>
 
     <!-- Data -->
-    <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_movementactions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_standaractions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_swiftactions.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
-	<script type="text/javascript" src="js/data_optional.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/data_fullactions.js" charset="utf-8"></script>
+   	<script type="text/javascript" src="js/data_otheractions.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
 	<script type="text/javascript" src="js/data_rest.js" charset="utf-8"></script>

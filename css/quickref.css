@@ -118,42 +118,49 @@
 /* ------------------------------------------------------------------------- */
 /* Colors */
 /* ------------------------------------------------------------------------- */
-#section-movement, #section-movement .item-icon {
-    background-color: maroon;
-    border-color: maroon;
+#section-movement-action, #section-movement-action .item-icon {
+    background-color: steelblue;
+    border-color: steelblue;
 }
-#section-movement .text {
-    color: maroon;
-}
-
-#section-action, #section-action .item-icon {
-    background-color: black;
-    border-color: black;
-}
-#section-action .text {
-    color: black;
+#section-movement-action .text {
+    color: steelblue;
 }
 
-#section-bonus-action, #section-bonus-action .item-icon {
-    background-color: indigo;
-    border-color: indigo;
+#section-standar-action, #section-standar-action .item-icon {
+    background-color: navy;
+    border-color: navy;
 }
-#section-bonus-action .text {
-    color: indigo;
+#section-standar-action .text {
+    color: navy;
+}
+
+#section-swift-action, #section-swift-action .item-icon {
+    background-color: LightSkyBlue;
+    border-color: LightSkyBlue;
+}
+#section-swift-action .text {
+    color: LightSkyBlue;
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
+    background-color: Tomato ;
+    border-color: Tomato ;
 }
 #section-reaction .text {
-    color: DarkOliveGreen ;
+    color: Tomato ;
 }
-#section-optional, #section-optional .item-icon {
+#section-full-action, #section-full-action .item-icon {
+    background-color: FireBrick;
+    border-color: FireBrick;
+}
+#section-full-action .text {
+    color: FireBrick;
+}
+#section-other-action, #section-other-action .item-icon {
     background-color: DarkOrange;
     border-color: DarkOrange;
 }
-#section-optional .text {
+#section-other-action .text {
     color: DarkOrange;
 }
 #section-condition, #section-condition .item-icon {

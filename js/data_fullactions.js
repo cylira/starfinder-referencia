@@ -1,4 +1,4 @@
-data_optional = [
+data_full = [
     {
         title: "Subirse a una criatura más grande",
         icon: "inner-self",
