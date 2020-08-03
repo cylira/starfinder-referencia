@@ -1,9 +1,9 @@
-dnd5e-referencia
+Starfinder-referencia
 ==============
 
-Referencia Rápida para D&amp;D 5e
+Referencia Rápida para Starfinder
 
-https://cylira.github.io/dnd5e-referencia/
+https://cylira.github.io/starfinder-referencia/
 
 Icons
 ==============
@@ -11,6 +11,6 @@ Icons
 Iconos por: http://game-icons.net/
 
 
-Original en inglés
+Basado en
 ==============
-Esta es la traducción de la hoja de referencia, puedes encontrar la versión en ingles directo en la página del creador: https://crobi.github.io/dnd5e-quickref/
+Basado en la version para D & D 5e: https://crobi.github.io/dnd5e-quickref/
