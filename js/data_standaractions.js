@@ -1,7 +1,7 @@
 data_action = [
 	{
         title: "Activar un objeto",
-        icon: "snatch",
+        icon: "button-finger",
         subtitle: "Interactuar con un objeto",
         description: "Interactuar con un objeto",
         reference: "SFCR, pág. 244.",
