@@ -1,15 +1,5 @@
 data_swift = [
     {
-        title: "Cambiar cómo empuñas un arma",
-        icon: "hand",
-        subtitle: " ",
-        description: "Cambias el modo en que empuñas un arma.",
-        reference: "SFCR, Pág. 247.",
-        bullets: [
-            "Por ejemplo: Pasar de empuñar un arma a dos manos con ambas manos a sujetarla con una sola, es una acción rápida."
-        ]
-    },
-    {
         title: "Tumbarse",
         icon: "crawl",
         subtitle: "Tirarse al suelo",
@@ -18,5 +8,15 @@ data_swift = [
         bullets: [
 		
         ]
-    }
+    },
+	{
+        title: "Cambiar cómo empuñas un arma",
+        icon: "hand",
+        subtitle: " ",
+        description: "Cambias el modo en que empuñas un arma.",
+        reference: "SFCR, Pág. 247.",
+        bullets: [
+            "Por ejemplo: Pasar de empuñar un arma a dos manos con ambas manos a sujetarla con una sola, es una acción rápida."
+        ]
+    }    
 ]
