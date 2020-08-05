@@ -1,7 +1,7 @@
 data_movement = [
     {
         title: "Desenfundar/enfundar arma",
-        icon: "sword-brandish",
+        icon: "scabbard",
         subtitle: "Desenfundar un arma para usarla",
         description: "Desenfundar un arma para poder usarla en combate o guardarla para tener la mano libre requiere una acción de movimiento",
         reference: "SFCR, pág. 247.",

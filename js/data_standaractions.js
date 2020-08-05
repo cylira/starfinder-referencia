@@ -21,7 +21,7 @@ data_action = [
     },
     {
         title: "Atacar",
-        icon: "crossed-swords",
+        icon: "saber-and-pistol",
         subtitle: "Ataque cuerpo a cuerpo o a distacia",
         description: "Llevar a cabo un único ataque es un acción estándar",
         reference: "SFCR, págs. 244-245.",
