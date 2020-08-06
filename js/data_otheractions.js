@@ -1,7 +1,7 @@
 data_other = [
     {
         title: "Cháchara de combate",
-        icon: "crossed-swords",
+        icon: "shouting",
         subtitle: "Se usa con la acción de Ataque",
         description: "Ataca con una arma en tu otra mano",
         reference: "SFCR, pág. 249.",
@@ -11,7 +11,7 @@ data_other = [
     },
     {
         title: "Dejar cae un objeto",
-        icon: "crossed-swords",
+        icon: "drop-weapon",
         subtitle: "Se usa con la acción de Ataque",
         description: "Ataca con una arma en tu otra mano",
         reference: "SFCR, pág. 249.",
@@ -21,7 +21,7 @@ data_other = [
     },
 	{
         title: "Preparar una acción",
-        icon: "crossed-swords",
+        icon: "clockwork",
         subtitle: "Se usa con la acción de Ataque",
         description: "Ataca con una arma en tu otra mano",
         reference: "SFCR, pág. 249.",
@@ -31,7 +31,7 @@ data_other = [
     },
 	{
         title: "Retrasar turno",
-        icon: "crossed-swords",
+        icon: "clockwork",
         subtitle: "Se usa con la acción de Ataque",
         description: "Ataca con una arma en tu otra mano",
         reference: "SFCR, pág. 249.",
