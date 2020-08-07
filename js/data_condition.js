@@ -3,46 +3,45 @@ data_condition = [
         title: "Apresado (Grappled)",
         icon: "grab",
         subtitle: "Te han agarrado",
-        description: "Estás agarrado",
-        reference: "PHB, pg. 290.",
+        description: "Estás inmovilizado por una criatura, trampa o efecto",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "La velocidad de una criatura agarrada es 0 y no puede aumentar por encima de ese valor.",
-            "Este estado termina si quien agarra queda incapacitado (consulta Incapacitado).",
-            "Este estado también termina si algún efecto aleja a la criatura de quien (o lo que) la tiene agarrada, como cuando el conjuro ola atronadora hace salir despedida a una criatura."
+            "No puedes moverte y sufres un penalizador -2 a la CA, tiradas de ataque, salvaciones de Reflejos, pruebas de iniciativa y pruebas de característica o de habilidad basadas en Destreza, excepto las llevadas a cabo para apresar también a tu oponente o escapar de una presa.",
+			"No puedes llevar a cabo acción alguna que requiere dos manos ( o extremidades equivalentes), ni puedes llevar a cabo ataques de oportundad.",
+			"No puedes usar el Sigilo para esonderte de la criatra que te está apresando, ni siquiera si una aptitud especial te permite esconderte cuando normalmente no podrías. Si te vuelves invisible mediante un conjuro u otra aptitud obtienes un bonificador +2 por circunstancia a tu prueba para escapar de la presa, pero no obtienes ningún otro beneficio."
         ]
     },
 		{
         title: "Asustado (Frightened)",
         icon: "sharp-smile",
         subtitle: "Estás asustado",
-        description: "Estás asustado",
-        reference: "PHB, pg. 290.",
+        description: "Huyes lo mejor que puedes del origen de tu miedo",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura asustada tiene desventaja en las pruebas de característica y tiradas de ataque mientras pueda ver a la fuente de su miedo.",
-            "La criatura no puede acercarse a la fuente de su miedo voluntariamente."
+            "Sufres un penalizador -2 a las tiradas de ataque,de salvación, pruebas de habilidad y de característica.",
+			"Puedes usar aptitudes especiales, incluidos conujuros, para huir; de hecho, debes emplear tales medios si suponen la única forma de escapar.",
+			"Si ya estás asustado y sufres un efecto que te dejara asustado, la duración de este segundo estado se suma a la del estado asustado que ya sufres."
         ]
     },
 	{
         title: "Aterrado (Cowering)",
         icon: "sharp-smile",
-        subtitle: "Estás asustado",
-        description: "Estás asustado",
-        reference: "PHB, pg. 290.",
+        subtitle: "El miedo te paraliza",
+        description: "El miedo te paraliza",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura asustada tiene desventaja en las pruebas de característica y tiradas de ataque mientras pueda ver a la fuente de su miedo.",
-            "La criatura no puede acercarse a la fuente de su miedo voluntariamente."
+            "Estás desprevenido y no puedes llevar a cabo acción alguna."
         ]
     },
 	{
         title: "Atontado (Dazed)",
         icon: "internal-injury",
-        subtitle: "Estás aturdido",
-        description: "Estás aturdido",
-        reference: "PHB, pg. 292.",
+        subtitle: "No puedes actuar",
+        description: "Eres incapaz de actuar con normalidad.",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura aturdida está incapacitada (consulta Incapacitado), no puede moverse y sólo es capaz de hablar con voz entrecortada.",
-            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
-            "las tiradas de ataque contra la criatura tienen ventaja."
+            "No puedes llevar a cabo acción alguna, pero no sufres penalizadores a la CA.",
+			"Lo habitual es que el estado atontado dure 1 asalto."
         ]
     },
 	{
@@ -50,11 +49,10 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Estás aturdido",
         description: "Estás aturdido",
-        reference: "PHB, pg. 292.",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura aturdida está incapacitada (consulta Incapacitado), no puede moverse y sólo es capaz de hablar con voz entrecortada.",
-            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
-            "las tiradas de ataque contra la criatura tienen ventaja."
+            "Dejas caer todo lo que llevas en las manos.",
+			"Eres incapaz de emprender acciones y estás desprevenido."
         ]
     },
 	{
@@ -62,43 +60,53 @@ data_condition = [
         icon: "one-eyed",
         subtitle: "No puedes ver",
         description: "No puedes ver",
-        reference: "PHB, pg. 290.",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura cegada no puede ver y falla automáticamente todas las pruebas de característica que requieran vista.",
-			"Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja."
+            "Estás despreveido y sufres un penalizador -4 a la mayoría de pruebas de habilidad basadas Fuerza y Destreza, así como a las pruebas enfrentadas de Percepción.",
+			"Todas las pruebas y acciones que dependan de la vista fallan automáticamente.",
+			"No puedes observar a otras criaturas, lo que significa que para ti todos los enemigos se consideran que tienen ocutacion total.",
+			"Debes superar una prueba de Acrobacias CD 10 para moverta más deprisa que a medi velocidad. Si fallas dicha prueba, caes tumbado.",
+			"Los personajes que permanecen cegados mucho tiempo acaban por acostumbrarse a estos inconvenientes y pueden superar algunos de ellos. Las criaturas que resultan cegadas pero que tienen un sentido preciso además de la vista siguen fallando todas las pruebas y actividades que dependen de la vista, pero no sufren ninguno de los demas efectos."
         ]
     },
 	{
         title: "Confuso (Confused)",
         icon: "one-eyed",
-        subtitle: "No puedes ver",
-        description: "No puedes ver",
-        reference: "PHB, pg. 290.",
+        subtitle: "Estás mentalmente confundido",
+        description: "Estás mentalmente confundido y no puedes actuar con normalidad.",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura cegada no puede ver y falla automáticamente todas las pruebas de característica que requieran vista.",
-			"Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja."
+            "No puedes distinguir entre amigos y enemigos y tratas a todas las criaturas como enemigos, incluyendo a tus amigos y familia si es el caso.",
+			"Un aliado que quiera lanzar sobre ti un conjuro beneficioso con alcance de toque tendrá que llevar a cabo una tirada de ataque contra tu CAE ya que no se te puede considerar un objetivo voluntario.",
+			"Si eres atacado estando confuso, siempre atacas a la criatura que te atacó hasta que ha muerto o no está ya a la vista, si no te resulta imposibe atacarla en ese asalto.",
+			"Mientras estás confuso, no puedes llevar a cabo ataques de oportunidad contra ninguna criatura o cosa a la que no estás ya atacando.",
+			"Si no estás entregado a atacar a un objetivo, tira en la siguiente tabla al inicio de cada turno para ver lo que haces en ese asalto.",
+			"<table><tr><th>===D%===</th><th></th><th></th><th style='text-align:left'>COMPORTAMIENTO</th></tr><tr><td>01-25</td><td></td><td></td><td>Actúas con normalidad.</td></tr><tr><td>26-50</td><td></td><td></td><td>No haces nada, salvo balbucear de forma incoherente.</td></tr><tr><td>51-75</td><td></td><td></td><td>Te inflinges a ti mismo 1d8 puntos de daño + modificador por FUE con un objeto que tengas a mano.</td></tr><tr><td>76-100</td><td></td><td></td><td>Atacas a la criatura más próxima.</td></tr></table>",
+			"Si no puedes llevar a cabo la acción indicada, no haces otra cosa que balbucear de forma incoherente.",
+			"Los atacantes no disfrutan de ninguna ventaja especial al atacar a un personajes confuso."
         ]
     },
 	{
         title: "Descentrado (Off-kilter)",
         icon: "one-eyed",
-        subtitle: "No puedes ver",
-        description: "No puedes ver",
-        reference: "PHB, pg. 290.",
+        subtitle: "Desorientado y flotando",
+        description: "Estás desorientado y flotando en gravedad cero.",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura cegada no puede ver y falla automáticamente todas las pruebas de característica que requieran vista.",
-			"Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja."
+            "No puedes llevar a cabo acciones de movimiento para mover tu velocidad, gatear o dar un paso protegido.",
+			"Estás desprevenido y sufres un penalizador -2 a las tiradas de ataque.",
+			"Debes usar un método de propulción para enderezarte o agarrarte a un objeto estabilizante como una pared o una escalera (normamente como una acción de movimiento) para poner fin a este estado."
         ]
     },
 		{
         title: "Desestabilizado (Off-target)",
         icon: "one-eyed",
-        subtitle: "No puedes ver",
-        description: "No puedes ver",
-        reference: "PHB, pg. 290.",
+        subtitle: "Perdiste concentración",
+        description: "Has perdido tu concentración en la batalla.",
+        reference: "SFCR, pág. 273.",
         bullets: [
-            "Una criatura cegada no puede ver y falla automáticamente todas las pruebas de característica que requieran vista.",
-			"Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja."
+		"Sufres un penalizador -2 a las tiradas de ataque mientras estás desestabilizado."
+            
         ]
     },
 	{
