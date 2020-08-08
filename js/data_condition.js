@@ -113,33 +113,34 @@ data_condition = [
         title: "Deslumbrado (Dazzled)",
         icon: "one-eyed",
         subtitle: "No puedes ver",
-        description: "No puedes ver",
-        reference: "PHB, pg. 290.",
+        description: "Eres incapaz de ver debido a una sobeestimulación lumínica de los ojos.",
+        reference: "SFCR, pág. 274.",
         bullets: [
-            "Una criatura cegada no puede ver y falla automáticamente todas las pruebas de característica que requieran vista.",
-			"Las tiradas de ataque contra la criatura tienen ventaja y las tiradas de ataque hechas por la criatura tienen desventaja."
+            "Sufres un penalizador -1 a las tiradas de ataque y a las pruebas de Percepción basadas en vista."
         ]
     },
 	{
         title: "Despavorido (Panicked)",
         icon: "sharp-smile",
-        subtitle: "Estás asustado",
-        description: "Estás asustado",
-        reference: "PHB, pg. 290.",
+        subtitle: "Huyes de tu miedo",
+        description: "Dejas caer lo que tienes en las manos y huyes tan rápido como puedes en una dirección aleatoria alejándote del origen de tu miedo, al igual que de cualquier otro peligro con el que te topas.",
+        reference: "SFCR, pág. 274.",
         bullets: [
-            "Una criatura asustada tiene desventaja en las pruebas de característica y tiradas de ataque mientras pueda ver a la fuente de su miedo.",
-            "La criatura no puede acercarse a la fuente de su miedo voluntariamente."
+            "No puedes llevar a cabo ninguna otra acción.",
+			"Sufres un penalizador -2 a todas las tiradas de salvación, pruebas de habilidad y de característica.",
+			"Si te ves acorralado, te encoges de miedo y no atacas, normalmente usando la acción de defensa total en combate y nada más.",
+			"Puedes utilizar aptitudes especiales, incluidos conjuros, para huir; de hecho, debes emplear tales medios si suponen la única forma de escapar."
         ]
     },
 	{
         title: "Desprevenido (Flat-footed)",
         icon: "sharp-smile",
-        subtitle: "Estás asustado",
-        description: "Estás asustado",
-        reference: "PHB, pg. 290.",
+        subtitle: "Te toman por sorpresa",
+        description: "Al inicio de un combate, si resultas sorprendido, estás desprevanido hasta que eres consciente del combate y has tenido oportunidad de actuar.",
+        reference: "SFCR, pág. 274.",
         bullets: [
-            "Una criatura asustada tiene desventaja en las pruebas de característica y tiradas de ataque mientras pueda ver a la fuente de su miedo.",
-            "La criatura no puede acercarse a la fuente de su miedo voluntariamente."
+            "Muchos otros efectos podrán provocar que pases a estar desprevenido.",
+			"Sufres un penalizador -2 a la CA y no puedes usar reacciones."
         ]
     },
 	{
@@ -147,7 +148,7 @@ data_condition = [
         icon: "crawl",
         subtitle: "Estás cansado",
         description: "El cansansio se mide en seis niveles",
-        reference: "PHB, pg. 291.",
+        reference: "SFCR, pág. 275.",
         bullets: [
             "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
             "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
@@ -160,7 +161,7 @@ data_condition = [
         icon: "crawl",
         subtitle: "Estás cansado",
         description: "El cansansio se mide en seis niveles",
-        reference: "PHB, pg. 291.",
+		reference: "SFCR, pág. 275.",
         bullets: [
             "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
             "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
@@ -173,7 +174,7 @@ data_condition = [
         icon: "elf-ear",
         subtitle: "No puedes oír",
         description: "No puedes oír",
-        reference: "PHB, pg. 290.",
+        reference: "SFCR, pág. 275.",
         bullets: [
             "Una criatura ensordecida no puede oír y falla automáticamente todas las pruebas de característica que requieran el oído."
         ]
@@ -183,7 +184,7 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "No tienes acciones ni reacciones",
         description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
-        reference: "PHB, pg. 290.",
+        reference: "SFCR, pág. 275.",
         bullets: [
         ]
     },
@@ -192,7 +193,7 @@ data_condition = [
         icon: "smitten",
         subtitle: "Estás hechizado",
         description: "Estás hechizado por otra criatura",
-        reference: "PHB, pg. 290.",
+        reference: "SFCR, pág. 275.",
         bullets: [
             "Una criatura hechizada no puede atacar ni elegir como objetivo de efectos dañinos o mágicos a quien la hechizó.",
 			"Quien hechizó a la criatura tiene ventaja en las pruebas de característica para interactuar socialmente con ella."
@@ -203,7 +204,7 @@ data_condition = [
         icon: "crawl",
         subtitle: "Estás cansado",
         description: "El cansansio se mide en seis niveles",
-        reference: "PHB, pg. 291.",
+        reference: "SFCR, pág. 275.",
         bullets: [
             "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
             "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
@@ -216,7 +217,7 @@ data_condition = [
         icon: "smitten",
         subtitle: "Estás hechizado",
         description: "Estás hechizado por otra criatura",
-        reference: "PHB, pg. 290.",
+        reference: "SFCR, pág. 275.",
         bullets: [
             "Una criatura hechizada no puede atacar ni elegir como objetivo de efectos dañinos o mágicos a quien la hechizó.",
 			"Quien hechizó a la criatura tiene ventaja en las pruebas de característica para interactuar socialmente con ella."
