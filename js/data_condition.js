@@ -146,27 +146,25 @@ data_condition = [
 	{
         title: "Dormido (Asleep)",
         icon: "crawl",
-        subtitle: "Estás cansado",
-        description: "El cansansio se mide en seis niveles",
+        subtitle: "Estás durmiendo e indefenso",
+        description: "Estás durmiendo e indefenso.",
         reference: "SFCR, pág. 275.",
         bullets: [
-            "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
-            "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
-            "Finalizar un descanso largo reduce el nivel de cansancio en 1, siempre y cuando hayas comido y bebido algo durante el mismo.",
-            "También, ser resucitado de entre los muertos reduce el nivel de cansancio por 1."
+            "Sufres un penalizador -10 a las pruebas de Percepción para advertir cualquier cosa.",
+			"Si superas la prueba de Percepción para advertir algo a pesar del penalizador, te despiertas automáticamente.",
+			"También te despiertas si te abofetean o te hieren.",
+			"Un aliado puede despertarte como acción estándar."
         ]
     },
 	{
         title: "Enmarañado (Entangled)",
         icon: "crawl",
-        subtitle: "Estás cansado",
-        description: "El cansansio se mide en seis niveles",
+        subtitle: "Estás enredado",
+        description: "Este estado dificulta la movilidad, pero no la impide por completo, si las ataduras no están sujetas a un objeto inmóvil o aferradas por una fuerza opuesta.",
 		reference: "SFCR, pág. 275.",
         bullets: [
-            "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
-            "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
-            "Finalizar un descanso largo reduce el nivel de cansancio en 1, siempre y cuando hayas comido y bebido algo durante el mismo.",
-            "También, ser resucitado de entre los muertos reduce el nivel de cansancio por 1."
+            "Te mueves a la mitad de tu velocidad.",
+			"No puedes correr ni cargar y sufres un penalizador -2 a la CA, tiradas de ataque, salvaciones de Reflejos, pruebas de iniciativa y pruebas de caracerística y de habilidad basadas en la Destreza."
         ]
     },
     {
@@ -176,64 +174,68 @@ data_condition = [
         description: "No puedes oír",
         reference: "SFCR, pág. 275.",
         bullets: [
-            "Una criatura ensordecida no puede oír y falla automáticamente todas las pruebas de característica que requieran el oído."
+            "Sufres un penalizador -4 a las pruebas de iniciativa y a las pruebas de Percepción opuestas y fallas automáticamente las pruebas de Percepción basadas en oído.",
+			"Los personajes que permanecen mucho tiempo en este estado acaban por acostumbrarse a los inconvenientes y pueden superar algunos de ellos."
         ]
     },
 	{
         title: "Estabilizado (Stable)",
         icon: "internal-injury",
-        subtitle: "No tienes acciones ni reacciones",
-        description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
+        subtitle: "Ya no estás muriendo",
+        description: "Si estabas moribundo pero has gastado Puntos de Resolución para estabilizarte o has recibido primeros auxilios, estás estabilizado",
         reference: "SFCR, pág. 275.",
         bullets: [
+			"Has dejado de estar moribudo, pero sigues estando inconsciente."
         ]
     },
 	{
         title: "Estremecido (Shaken)",
         icon: "smitten",
-        subtitle: "Estás hechizado",
-        description: "Estás hechizado por otra criatura",
+        subtitle: "Estás estremecido",
+        description: "Estás estremecido",
         reference: "SFCR, pág. 275.",
         bullets: [
-            "Una criatura hechizada no puede atacar ni elegir como objetivo de efectos dañinos o mágicos a quien la hechizó.",
-			"Quien hechizó a la criatura tiene ventaja en las pruebas de característica para interactuar socialmente con ella."
+            "Sufres un penalizador -2 a las tiradas de ataque y de salvación y a las pruebas de habilidad y de característica mientras estás estremecido.",
+			"Si ya estás estremecido y sufres un efecto que te dejaría estremecido, la duración de este segundo estado se suma a la del estado estremecido que ya sufres."
+		
         ]
     },
 	{
         title: "Exhausto (Exhausted)",
         icon: "crawl",
-        subtitle: "Estás cansado",
-        description: "El cansansio se mide en seis niveles",
+        subtitle: "Estás extremadamente cansado",
+        description: "Estás extremadamente cansado",
         reference: "SFCR, pág. 275.",
         bullets: [
-            "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
-            "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
-            "Finalizar un descanso largo reduce el nivel de cansancio en 1, siempre y cuando hayas comido y bebido algo durante el mismo.",
-            "También, ser resucitado de entre los muertos reduce el nivel de cansancio por 1."
+            "Te mueves a la mitad de tu velocidad, no puedes correr ni cargar y sufres un penalizador -3 a tu CA, tiradas de ataque, tiradas de daño cuerpo a cuerpo, tiradas de daño con armas arrojadizas, salvaciones de Reflejos, pruebas de iniciativa y pruebas de habilidad y características basadas en la Fuerza y la Destreza.",
+			"La cantidad de peso que puedes cargar sin quedar impedido se reduce en 3.",
+			"Tras 1 hora de descanso completo, pasas a estar fatigado en lugar de exhasuto."
         ]
     },
 	{
         title: "Fascinado (Fascinated)",
         icon: "smitten",
-        subtitle: "Estás hechizado",
-        description: "Estás hechizado por otra criatura",
+        subtitle: "Has quedado embelesado",
+        description: "Mientras sufres el estado fascinado, te quedas de pie o te sientas tranquilamente, sin hacer nada salvo prestar atención al efecto que te ha fascinado, durante tanto tiempo como dura.",
         reference: "SFCR, pág. 275.",
         bullets: [
-            "Una criatura hechizada no puede atacar ni elegir como objetivo de efectos dañinos o mágicos a quien la hechizó.",
-			"Quien hechizó a la criatura tiene ventaja en las pruebas de característica para interactuar socialmente con ella."
+            "Sufres un penalizador -4 a las pruebas de habilidad hechas pasivamente en respuesta a acciones de otros, como las de Percepción.",
+			"Cualquier amenaza potencial, como que se acerque una criatura hostil, te dará derecho a una nueva tirada de salvación contra el efecto fascinador.",
+			"Cualquier amenaza obvia, como alquien desenvainando un arma, lanzando un conjuro o apuntándote con un arma a distancia, romperá el efecto inmediatamente.",
+			"Un aliado puede liberarte del efecto si te sacude con fuerza como acción estándar."
         ]
     },
 	{
         title: "Fatigado (Fatigued)",
         icon: "crawl",
         subtitle: "Estás cansado",
-        description: "El cansansio se mide en seis niveles",
-        reference: "PHB, pg. 291.",
+        description: "Estás cansado",
+        reference: "SFCR, pág. 276.",
         bullets: [
-            "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Consecuencia</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en pruebas de característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad reducida a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en tiradas de ataque y de salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de golpe máximos reducidos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
-            "En cada nivel de cansancio sufres tanto la consecuencia del mismo como todas las de los niveles inferiores.",
-            "Finalizar un descanso largo reduce el nivel de cansancio en 1, siempre y cuando hayas comido y bebido algo durante el mismo.",
-            "También, ser resucitado de entre los muertos reduce el nivel de cansancio por 1."
+            "No puedes correr ni cargar y sufres un penalizador -1 a tu CA, tiradas de ataque, tiradas de daño cuerpo a cuerpo, salvaciones de Reflejos, pruebas de iniciativa y pruebas de habilidad y características basadas en la Fuerza y la Destreza.",
+			"La cantidad de peso que puedes cargar sin quedar impedido se reduce en 1.",
+			"Si estás fatigado, llevar a cabo una actividad que suele causar fatiga hace que quedes exhausto.",
+			"Tras 8 hora de descanso completo, dejas de estar fatigado."
         ]
     },
 	{
@@ -341,6 +343,7 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Estás paralizado",
         description: "No puedes hacer nada",
+		reference: "SFCR, pág. 276.",
         bullets: [
             "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
             "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
@@ -353,6 +356,7 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Estás paralizado",
         description: "No puedes hacer nada",
+		reference: "SFCR, pág. 276.",
         bullets: [
             "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
             "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
@@ -365,6 +369,7 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Sólo objetos",
         description: "No puedes hacer nada",
+		reference: "SFCR, págs. 276-277.",
         bullets: [
             "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
             "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
