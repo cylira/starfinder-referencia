@@ -241,101 +241,88 @@ data_condition = [
 	{
         title: "Grogui (Staggered)",
         icon: "internal-injury",
-        subtitle: "No tienes acciones ni reacciones",
-        description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
-        reference: "PHB, pg. 290.",
+        subtitle: " ",
+        description: "Puedes llevar a cabo una sola acción de movimiento o estándar por asalto, pero no ambas, ni acciones completas. Sigues siendo capaz de llvar a cabo acciones rápidas, pero no reacciones.",
+        reference: "SFCR, pág. 276.",
         bullets: [
         ]
     },
 	{
         title: "Impedido (Encumbered)",
         icon: "internal-injury",
-        subtitle: "No tienes acciones ni reacciones",
-        description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
-        reference: "PHB, pg. 290.",
+        subtitle: " ",
+        description: " ",
+        reference: "SFCR, pág. 276.",
         bullets: [
+			"Todas tus velocidades se reduen en 10 pies, tu bonificador máximo por Destreza a la CA se reduce a +2 y sufres un penalizador -5 a la pruebas basadas en Fuerza y Destreza (o el penalizador de tu armadura a la pruebas, el peor de los dos)."
         ]
     },   
 	{
         title: "Inconsciente (Unconscious)",
         icon: "coma",
-        subtitle: "Estás inconsciente",
-        description: "Estás inconsciente",
-        reference: "PHB, pg. 292.",
+        subtitle: "Estás tumbado e indefenso",
+        description: "Estás tumbado e indefenso",
+        reference: "SFCR, pág. 276.",
         bullets: [
-            "Un criatura inconsciente está incapacitada (consulta Incapacitado), no puede moverse o hablar y no es consciente de su entorno.",
-            "La criatura deja caer cualquier cosa que esté sujetando y cae derribada.",
-            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
-            "Las tiradas de ataque contra la criatura tienen ventaja.",
-            "Todos los ataques que impacten a la criatura son críticos si el atacante está a 5 pies o menos de ella",
+            "La inconsiencia puede resultar de tener 0 Puntos de Golpe.",
         ]
     },	
     {
         title: "Indefenso (Helpless)",
         icon: "internal-injury",
         subtitle: "No tienes acciones ni reacciones",
-        description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
-        reference: "PHB, pg. 290.",
+        description: "Estás atado, dormido, inconsiente o, por cualquier otra causa, completamente a merced de tu oponente",
+        reference: "SFCR, pág. 276.",
         bullets: [
+			"Se te considera que tienes Destreza 0 (lo que hará que tu modificador sea -5).",
+			"Los ataques cuerpo a cuerpo contra ti tienen un bonificador +4 (equivalente a atacar a un objetivo tumbado).",
+			"Los ataques a distancia no obtienen ningún bonificador especial."
         ]
     },
 	   {
         title: "Indispuesto (Sickened)",
         icon: "internal-injury",
-        subtitle: "No tienes acciones ni reacciones",
-        description: "Una criatura incapacitada no puede llevar a cabo acciones ni reacciones",
-        reference: "PHB, pg. 290.",
+        subtitle: " ",
+        description: "Sufres un penalizador -2 a todas las tiradas de ataque, tiradas de daño con armas, tiradas de salvación, pruebas de habilidad y pruebas de característica.",
+        reference: "SFCR, pág. 276.",
         bullets: [
         ]
     },
     {
         title: "Mareado (Nauseated)",
         icon: "invisible",
-        subtitle: "No te pueden ver",
-        description: "No pueden verte sin la ayuda de magia o sentidos especiales.",
-        reference: "PHB, pg. 291.",
+        subtitle: "Tienes malestar estomacal",
+        description: "Estás experimentando un malestar estomacal.",
+        reference: "SFCR, pág. 276.",
         bullets: [
-            "Es imposible ver a una criatura invisible sin la ayuda de magia o sentidos especiales.",
-			"En lo que a esconderse respecta, se considera que la criatura se encuentra en una zona muy oscura, aunque se puede determinar su ubicación si esta hace algún ruido o deja huellas.",
-            "Las tiradas de ataque contra la criatura tienen desventaja y las tiradas de ataque hechas por la criatura tienen ventaja."
+            "No puedes atacar, lanzar conjuros, concentrarte en conjuros o hacer cualquier cosa que requiere atención.",
+			"Lo único que puedes hacer es una sola acción de movimiento por turno."
         ]
     },
     {
         title: "Moribundo (Dying)",
         icon: "dead-head",
-        subtitle: "Estás muriendo",
-        description: "Has alcanzado los 0 puntos de golpe y estás muriendo",
-        reference: "PHB, pg. 197.",
+        subtitle: "Al borde de la muerte",
+        description: "Estás inconsiente y al borde de la muerte",
+        reference: "SFCR, pág. 276.",
         bullets: [
-            "Si el daño que no te mata te reduce a 0 puntos de golpe, caes inconsciente y comienzas a morir.",
-			"Si recibes sanación, inmediatamente recuperas la consciencia y dejas de morir.",
-			"Cuando estás muriendo, al inicio de cada uno de tus turnos realizas una tirada de salvación contra muerte. Tira un d20 sin sumar ningún modificador.",
-			"Si sacas 10 o más es un éxito, 9 o menos es un fallo.",
-			"En tu tercer éxito te estabilizas.",
-			"En tu tercer fallo mueres.",
-			"Sacar 1 en la tirada cuenta como 2 fallos.",
-			"Sacar 20 en la tirada inmediatamente te recupera 1 punto de golpe.",
-			"Pueden estabilizarte utilizando la acción de Estabilizar y superando una prueba de Sabiduría (Medicina) CD 10.",
-			"Una vez estable recuperas 1 punto de golpe después de 1d4 horas."
+            "Las criaturas a 0 Puntos de Golpe que no se han estabilizado están moribundas.",
+			"Una criatura moribunda no puede llevar a cabo acción alguna y pierde 1 Punto de Resolución por asalto al final de su turno si no se estabiliza.",
+			"Una criatura moribunda puede gastar 3 PR para estabilizarse y luego gastar 1 PR en un asalto subsiguiente para recuperar 1 PG y seguir luchando.",
+			"Estabilizarse o ser curado por encima de los 0 Puntos de Golpe pone fin al estado moribundo, como también hace la muerte."
+			
         ]
     },
 	{
         title: "Muerto (Dying)",
         icon: "dead-head",
-        subtitle: "Estás muriendo",
-        description: "Has alcanzado los 0 puntos de golpe y estás muriendo",
-        reference: "PHB, pg. 197.",
+        subtitle: "Estás murrto",
+        description: "Estás muerto cuando tienes 0 Puntos de Golpe, no estás estabilizado y no te quedan Puntos de Resolución pero deberías perder alguno debido a estar moribundo o sufrir daño estando morubundo.",
+        reference: "SFCR, pág. 276.",
         bullets: [
-            "Si el daño que no te mata te reduce a 0 puntos de golpe, caes inconsciente y comienzas a morir.",
-			"Si recibes sanación, inmediatamente recuperas la consciencia y dejas de morir.",
-			"Cuando estás muriendo, al inicio de cada uno de tus turnos realizas una tirada de salvación contra muerte. Tira un d20 sin sumar ningún modificador.",
-			"Si sacas 10 o más es un éxito, 9 o menos es un fallo.",
-			"En tu tercer éxito te estabilizas.",
-			"En tu tercer fallo mueres.",
-			"Sacar 1 en la tirada cuenta como 2 fallos.",
-			"Sacar 20 en la tirada inmediatamente te recupera 1 punto de golpe.",
-			"Pueden estabilizarte utilizando la acción de Estabilizar y superando una prueba de Sabiduría (Medicina) CD 10.",
-			"Una vez estable recuperas 1 punto de golpe después de 1d4 horas."
+            "También puedes morir por daño de caracerística, consunción de característic o niveles negativos o al sufrir daño masivo.",
+			"Cuando estás muerto, tu alma abandona tu cuerpo y no puedes llevar a cabo ningún tipo de acción.",
+			
         ]
     },
 	{
