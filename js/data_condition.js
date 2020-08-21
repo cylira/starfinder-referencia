@@ -302,8 +302,8 @@ data_condition = [
     {
         title: "Moribundo (Dying)",
         icon: "dead-head",
-        subtitle: "Al borde de la muerte",
-        description: "Estás inconsiente y al borde de la muerte",
+        subtitle: "Al borde de la muerte.",
+        description: "Estás inconsiente y al borde de la muerte.",
         reference: "SFCR, pág. 276.",
         bullets: [
             "Las criaturas a 0 Puntos de Golpe que no se han estabilizado están moribundas.",
@@ -316,46 +316,50 @@ data_condition = [
 	{
         title: "Muerto (Dying)",
         icon: "dead-head",
-        subtitle: "Estás murrto",
+        subtitle: "Estás muerto.",
         description: "Estás muerto cuando tienes 0 Puntos de Golpe, no estás estabilizado y no te quedan Puntos de Resolución pero deberías perder alguno debido a estar moribundo o sufrir daño estando morubundo.",
         reference: "SFCR, pág. 276.",
         bullets: [
             "También puedes morir por daño de caracerística, consunción de característic o niveles negativos o al sufrir daño masivo.",
 			"Cuando estás muerto, tu alma abandona tu cuerpo y no puedes llevar a cabo ningún tipo de acción.",
+			"No puedes beneficiarte de curación normal ni mágica, pero puedes ser devuelto a la vida mediante magia o tecnología capaz de semejante proeza.",
+			"Tu cuerpo muerto de descompone de la forma habitual si no se preserve, pero cualquier efecto que te devuelve a la vida también hace que tu cuerpo recupere toda su salud o vuelva al estado en el que se encontraba cuando perdió la vida."
 			
         ]
     },
 	{
         title: "Paralizado (Paralyzed)",
         icon: "internal-injury",
-        subtitle: "Estás paralizado",
-        description: "No puedes hacer nada",
+        subtitle: "Casi completamente inmovilizado.",
+        description: "Has quedado casi completamente inmovilizado y eres incapaz de mover tu cuerpo exepto para agitarte levemente, mover tus ojos y cosas así.",
 		reference: "SFCR, pág. 276.",
         bullets: [
-            "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
-            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
-            "Las tiradas de ataque contra la criatura tienen ventaja.",
-            "Todos los ataques que impacten a la criatura son críticos si el atacante está a 5 pies o menos de ella."
+            "No estás indefenso, pero se te trata como si tuvieras un modificador -5 a la Destreza.",
+			"Puedes llevar a cabo acciones puramente mentales, pero no físicas.",
+			"Si estás volando al momento de quedar paralizado y tu vuelo depende de medios físicos, caes; si estás nadando, corres el riesgo de ahogarte.",
+			"Cualquiera puede atravesar el espacio que ocupas, sea o o tu alidado, pero las casillas en las que te encuentras cuentan como 2 a efectos de movimiento."
         ]
     },
 	{
         title: "Quemadura (Burning)",
         icon: "internal-injury",
-        subtitle: "Estás paralizado",
-        description: "No puedes hacer nada",
+        subtitle: "Estás en llamas.",
+        description: "Estás en llamas.",
 		reference: "SFCR, pág. 276.",
         bullets: [
-            "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
-            "La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.",
-            "Las tiradas de ataque contra la criatura tienen ventaja.",
-            "Todos los ataques que impacten a la criatura son críticos si el atacante está a 5 pies o menos de ella."
+            "Al inicio de cada uno de tus turnos antes de poder llevar a cabo acción alguna (o intentar la salvación descrita más abajo), sufres la cantidad de daño por fuego indicada (o 1d6 puntos de daño por fuego, si no se indica ninguna cantidad en el efecto que causa la quemadura).",
+			"El daño por fuego de varias fuentes que infligen el estado quedmadura es acumulativo.",
+			"Al final de cada asalto en que sufres a quemadura, puedes intentar una salvación de Reflejos para poner fin a dicho estado. La CD es igual a 10 + la cantidad de daño por fuego que has sufrido este asalto debido al estado quemadura.",
+			"Puedes intentar una nueva tirada de salvación cada asalto que sufres dicho estado y obtienes un bonificador +2 por cada tirada de salvación para el mismo estado que has intentado en asaltos consecutivos.",
+			"Puedes poner fin al estado sumergiéndote completamente en agua.",
+			"Si no dispones de suficiente agua cerca, puedes invertir una acción completa en rodar por el suelo o sofocar el fuego de algún otro modo para intentar una nueva tirada de salvación con un bonificador +4 (ademas del posible bonificador por salvaciones fallidas anteriores) para ponerle fin."
         ]
     },
 	{
         title: "Roto (Broken)",
         icon: "internal-injury",
         subtitle: "Sólo objetos",
-        description: "No puedes hacer nada",
+        description: "Los objetos que han sufrido daño superior a la mitad de u total de Puntos de Golpe pasan a estar rotos.",
 		reference: "SFCR, págs. 276-277.",
         bullets: [
             "Una criatura paralizada está incapacitada (consulta Incapacitado) y no puede moverse ni hablar.",
